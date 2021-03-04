@@ -1,1 +1,1 @@
-# 10.ES2015 Exercises
+## 10.ES2015 Exercises
