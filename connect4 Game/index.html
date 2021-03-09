@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="connect4.css" rel="stylesheet">
+</head>
+<body>  
+  <h1>Connect Four</h1>
+<br>
+  <h3 class="friendTitle">Write yout name</h3>
+    <form action="" id="newGa">
+      <label for="firstName" style="font-family:Hachi Maru Pop; margin:10px">Your Name</label>
+      <input class="storage" type="text" id="firstName">
+      <button class="button" value="add friend">Add Player</button>
+    </form>
+      <ul class="TextFriend" id="PlayerList"></ul>
+      <div id="game">
+       <table id="board"></table>
+      </div>
+     <button id="restartGame" onclick="playAgain()">
+    <a href="index.html">Play again?</a>
+  </button>
+ <script src="connect4.js"></script>
+</body>
+</html>
