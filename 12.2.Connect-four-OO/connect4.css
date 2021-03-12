@@ -1,0 +1,69 @@
+/* game board table */
+/* game board table */
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+  transition-duration: 0.5s
+}
+
+body {
+  background: linear-gradient(160deg, #b05df5 1%, #00fcda 100%);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  justify-content: space-between;
+}
+
+h1 {
+  margin: -0.5em auto;
+  Color: rgb(207, 30, 30);
+  font-family: Hachi Maru Pop;
+  font-size: 2.6em;  
+  text-shadow: 5px 5px 15px rgb(10, 11, 99);
+}
+
+h3 {
+  Color: rgb(87, 17, 17);
+  font-family: Hachi Maru Pop;
+  font-size: 1em;  
+  text-shadow: 5px 5px 15px rgb(10, 11, 99);
+  margin: 10px;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  /* TODO: make into circles */
+  border-radius: 50%;
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+}
+
+/* column-top is table row of clickable areas for each column */
+#column-top td {
+  border: dashed 1px rgb(160, 228, 207);
+}
+
+#column-top td:hover {
+  background-color: rgb(136, 255, 0);
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(136, 255, 0);
+  border-color: black;
+  color: rgb(54, 22, 233);
+  font-size: 0.6em;
+  border-radius: 10px;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 0.5em auto;
+  outline: none;
+  font-family: Hachi Maru Pop;
+}    
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(236, 104, 104, 0.897);
+}
